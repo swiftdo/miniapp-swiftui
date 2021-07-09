@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+func cal() {
+    for i in stride(from: -1, to: 1, by: 0.01) {
+        print(i)
+    }
+}
+
 struct MinePage: View {
     var body: some View {
         Text("MinePage")
